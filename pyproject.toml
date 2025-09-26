@@ -1,0 +1,17 @@
+[project]
+name = "pert-vae"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "chenqt", email = "1376250391@qq.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+pert-vae = "pert_vae:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
